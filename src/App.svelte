@@ -4,7 +4,10 @@
 
 <main>
 	<div class='FAQblock'>
-		<h1>FAQs</h1>
+		<div class='FAQtitle'>
+			<img class='star' src="images/icon-star.svg" alt=""> 
+			<h1>FAQs</h1>
+		</div>
 		<Question question="What is Frontend Mentor, and how will it help me?">
 			<p>Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.</p>
 		</Question>
@@ -21,29 +24,25 @@
 </main>
 
 <style>
-	/* main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	} */
 
 	h1 {
-		font-size: 4em;
+		font-size: 3em;
 		font-weight: bold;
 	}
 
-	/* @media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	} */
-
 	.FAQblock {
-		padding: 10px;
+		padding: 2px 25px;
 		max-width: 500px;
 		border-radius: 15px;
 		margin: 20vh auto;
-		background-color: white;
+		background-color: hsl(0, 0%, 100%);
+	}
+
+	.FAQtitle {
+		display: flex;
+	}
+
+	.FAQtitle * {
+		padding: 0 5px;
 	}
 </style>
