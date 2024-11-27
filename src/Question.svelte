@@ -29,7 +29,7 @@
     }
 
     .questionDiv:hover {
-        color: hsl(293, 84%, 44%);
+        color: rgba(172,39,235,255);
         cursor: pointer;
     }
 </style>
