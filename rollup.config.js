@@ -72,6 +72,7 @@ export default {
 		// instead of npm run dev), minify
 		production && terser()
 	],
+	base: '/FAQaccordion/',
 	watch: {
 		clearScreen: false
 	}
